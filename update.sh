@@ -18,8 +18,6 @@ if [[ -e /usr/local/bin/xray ]]; then
 	 sleep 1
 	 cd /usr/bin
 	 rm menu
-	 #wget -q -O /usr/bin/menu https://raw.githubusercontent.com/MujaddidSC/menu/main/menu.sh && chmod +x /usr/bin/menu
-	 wget -O menu "https://raw.githubusercontent.com/MujaddidSC/menu/main/menu.sh" && chmod +x menu
 	 echo ""
 	 echo -e "[${green}INFO${NC}] Successfully Install New Update File !"
 	 sleep 1
@@ -36,7 +34,6 @@ else
 	 sleep 1
 	 #cd /usr/bin
 	 #rm menu
-	 #wget -O menu "https://raw.githubusercontent.com/MujaddidSC/menu/main/menu.sh" && chmod +x menu
 	 echo ""
 	 echo -e "[${green}INFO${NC}] Successfully Install New Update File !"
 	 sleep 1
